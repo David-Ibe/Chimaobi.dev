@@ -182,6 +182,7 @@ export interface Project {
   details: string[];
   techTags: string[];
   repoUrl: string | null;
+  liveUrl?: string;
   isPrivate?: boolean;
 }
 
@@ -197,6 +198,18 @@ export const projects: Project[] = [
     ],
     techTags: ["React", "FastAPI", "SQLite", "Tailwind"],
     repoUrl: "https://github.com/David-Ibe/ask-obi",
+    liveUrl: "https://ask-obi.vercel.app",
+  },
+  {
+    name: "require-ng-MVP",
+    shortDescription:
+      "Fintech MVP leveraging Supabase for auth and Postgres storage, with Docker/k8s deployment.",
+    details: [
+      "React frontend, Node backend, Supabase auth, and k8s manifests.",
+    ],
+    techTags: ["React", "Node.js", "Supabase", "Kubernetes"],
+    repoUrl: "https://github.com/David-Ibe/require-ng-MVP",
+    liveUrl: "https://require-ng.vercel.app",
   },
   {
     name: "social-media-video-downloader",
@@ -208,17 +221,7 @@ export const projects: Project[] = [
     ],
     techTags: ["React", "Vite", "NestJS", "Tailwind", "yt-dlp"],
     repoUrl: "https://github.com/David-Ibe/social-media-video-downloader",
-  },
-  {
-    name: "vocalize-app",
-    shortDescription:
-      "Voice & social interaction application with media upload, streaming and audio features.",
-    details: [
-      "Media upload/streaming endpoints, client audio capture/playback components.",
-      "Authentication flows and secure file handling.",
-    ],
-    techTags: ["React", "Node.js", "Express"],
-    repoUrl: "https://github.com/David-Ibe/vocalize-app",
+    liveUrl: "https://social-media-video-downloader-1-2dby.onrender.com",
   },
   {
     name: "requiretechnologies",
@@ -230,6 +233,17 @@ export const projects: Project[] = [
     ],
     techTags: ["Next.js", "TypeScript", "Tailwind", "Paystack"],
     repoUrl: "https://requiretechnologies.com",
+  },
+  {
+    name: "vocalize-app",
+    shortDescription:
+      "Voice & social interaction application with media upload, streaming and audio features.",
+    details: [
+      "Media upload/streaming endpoints, client audio capture/playback components.",
+      "Authentication flows and secure file handling.",
+    ],
+    techTags: ["React", "Node.js", "Express"],
+    repoUrl: "https://github.com/David-Ibe/vocalize-app",
   },
   {
     name: "Make-Moni-App",
@@ -264,16 +278,6 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/David-Ibe/excel-network",
   },
   {
-    name: "require-ng-MVP",
-    shortDescription:
-      "Fintech MVP leveraging Supabase for auth and Postgres storage, with Docker/k8s deployment.",
-    details: [
-      "React frontend, Node backend, Supabase auth, and k8s manifests.",
-    ],
-    techTags: ["React", "Node.js", "Supabase", "Kubernetes"],
-    repoUrl: "https://github.com/David-Ibe/require-ng-MVP",
-  },
-  {
     name: "BustopFX-website",
     shortDescription:
       "Marketing and exchange website with contact and onboarding flows.",
@@ -287,8 +291,9 @@ export const projects: Project[] = [
 
 export const featuredProjectSlugs = [
   "ask-obi",
+  "require-ng-MVP",
+  "social-media-video-downloader",
   "requiretechnologies",
-  "Emotion-Analyzer",
 ];
 
 export function getFeaturedProjects(): Project[] {

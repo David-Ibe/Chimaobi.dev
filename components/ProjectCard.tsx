@@ -7,7 +7,7 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, featured }: ProjectCardProps) {
-  const { name, shortDescription, details, techTags, repoUrl, isPrivate } =
+  const { name, shortDescription, details, techTags, repoUrl, liveUrl, isPrivate } =
     project;
 
   const cardContent = (
@@ -38,18 +38,20 @@ export function ProjectCard({ project, featured }: ProjectCardProps) {
           </span>
         ))}
       </div>
-      {repoUrl && (
+      {(liveUrl || repoUrl) && (
         <span className="mt-3 inline-block text-sm font-medium text-[#0f62fe]">
-          {repoUrl.includes("github.com") ? "View repo →" : "View site →"}
+          {liveUrl ? "View site →" : repoUrl?.includes("github.com") ? "View repo →" : "View site →"}
         </span>
       )}
     </>
   );
 
-  if (repoUrl && !isPrivate) {
+  const linkUrl = liveUrl || repoUrl;
+  
+  if (linkUrl && !isPrivate) {
     return (
       <Link
-        href={repoUrl}
+        href={linkUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0f62fe] focus-visible:ring-offset-2"
