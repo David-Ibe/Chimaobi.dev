@@ -1,0 +1,139 @@
+{
+  "contact": {
+    "name": "Chimaobi David Ibe",
+    "title": "Software Engineer • Full‑stack Developer",
+    "location": "Lagos, Nigeria",
+    "email": "cxxx2500@gmail.com",
+    "phone": "07039883247",
+    "formattedPhone": "+234 703 988 3247",
+    "github": "David-Ibe",
+    "linkedIn": "chimaobidavidibe"
+  },
+  "heroSummary": "Software Engineer • Full‑stack Developer with extensive experience architecting and delivering scalable, production-ready APIs and web applications. Proven expertise in Python (FastAPI/Flask) and Node.js ecosystems, with a strong focus on system design, cloud infrastructure, and ML model integration. Specialized in building robust backend services, seamless frontend experiences, and deploying containerized applications across modern cloud platforms.",
+  "technicalSkills": [
+    {
+      "category": "Backend Development",
+      "items": [
+        "Python: FastAPI, Flask, Pydantic, RESTful API design",
+        "Node.js: Express.js, JWT authentication, middleware development",
+        "API Architecture: REST APIs, microservices, async/await patterns"
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "items": [
+        "React, Next.js, Vite",
+        "TypeScript, JavaScript (ES6+)",
+        "Tailwind CSS, responsive design",
+        "State management, React Query, Axios"
+      ]
+    },
+    {
+      "category": "Machine Learning & Data",
+      "items": [
+        "Hugging Face Transformers",
+        "PyTorch",
+        "Model inference integration",
+        "Emotion classification, NLP"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "PostgreSQL (Supabase)",
+        "SQLite",
+        "Database design and optimization"
+      ]
+    },
+    {
+      "category": "DevOps & Cloud",
+      "items": [
+        "Containerization: Docker, Docker Compose",
+        "Orchestration: Kubernetes",
+        "Cloud Platforms: Vercel, Railway, Render, Fly.io",
+        "CI/CD pipelines, deployment automation"
+      ]
+    },
+    {
+      "category": "Tools & Technologies",
+      "items": [
+        "Version Control: Git, GitHub",
+        "Payment Integration: Paystack",
+        "Email Services: Resend",
+        "Data Visualization: Recharts, Chart.js",
+        "Testing & Debugging"
+      ]
+    }
+  ],
+  "experienceItems": [
+    {
+      "title": "Backend & Full-Stack API Development | Content Discovery Platform",
+      "bullets": [
+        "Architected and implemented high-performance FastAPI REST APIs with comprehensive Pydantic models for data validation and serialization",
+        "Designed and developed advanced search endpoints with optimized query performance and filtering capabilities",
+        "Integrated multiple external content APIs with robust error handling and rate limiting",
+        "Built AI-powered chat endpoint with streaming capabilities for real-time user interactions",
+        "Created comprehensive containerization strategies and deployment documentation for PaaS and container hosting platforms",
+        "Ensured API scalability and reliability through proper async/await patterns and database optimization"
+      ]
+    },
+    {
+      "title": "Real-Time Media & Audio Workflows | Voice/Social Platform",
+      "bullets": [
+        "Engineered backend endpoints for media upload, processing, and streaming with support for multiple file formats",
+        "Implemented client-side audio handling with Web Audio API integration for real-time processing",
+        "Developed secure authentication flows using JWT tokens and role-based access control (RBAC)",
+        "Built secure file storage system with cloud integration and CDN optimization",
+        "Designed and implemented real-time features using WebSockets for live audio interactions",
+        "Ensured data security and compliance with best practices for handling user-generated content"
+      ]
+    },
+    {
+      "title": "Corporate Website & Payments Integration | E-Commerce Platform",
+      "bullets": [
+        "Developed modern, responsive Next.js marketing website with server-side rendering (SSR) and static site generation (SSG)",
+        "Integrated Paystack payment gateway with webhook handling for secure transaction processing",
+        "Implemented email automation workflows using Resend for transactional and marketing emails",
+        "Built reusable component library with TypeScript for consistent UI/UX across the platform",
+        "Optimized performance with code splitting, lazy loading, and image optimization",
+        "Deployed and maintained production infrastructure on Vercel with CI/CD integration"
+      ]
+    },
+    {
+      "title": "ML Inference & Analytics | AI-Powered Analytics Platform",
+      "bullets": [
+        "Integrated Hugging Face emotion classification models into production backend services",
+        "Built scalable inference endpoints with model caching and batch processing capabilities",
+        "Developed real-time React analytics dashboard with interactive data visualizations using Recharts",
+        "Implemented data pipeline for processing and aggregating emotion classification results",
+        "Created API endpoints for historical data retrieval and trend analysis",
+        "Optimized model inference performance to handle high-volume requests efficiently"
+      ]
+    },
+    {
+      "title": "Enterprise Admin Dashboard & Backend | Enterprise SaaS Platform",
+      "bullets": [
+        "Built comprehensive frontend visualizations for complex rule management systems",
+        "Developed backend telemetry APIs for real-time monitoring and alerting",
+        "Implemented rule engine with configurable business logic and validation",
+        "Created real-time monitoring dashboards with live data updates",
+        "Designed and implemented API endpoints for rule CRUD operations with audit logging",
+        "Ensured system reliability through comprehensive error handling and monitoring"
+      ]
+    }
+  ],
+  "education": "BSc Industrial Chemistry — Enugu State University of Science and Technology",
+  "certifications": [
+    "Building Generative AI‑Powered Applications with Python — Coursera",
+    "Developing AI Applications with Python and Flask — IBM",
+    "Generative AI & LLMs: Architecture & Data Preparation — IBM",
+    "Machine Learning with Python — IBM"
+  ],
+  "availability": "Software development, frontend, backend, fullstack, etc.",
+  "additionalInfo": [
+    "Strong problem-solving skills with a focus on clean, maintainable code",
+    "Experience working in agile development environments",
+    "Passionate about building scalable systems and optimizing performance",
+    "Active contributor to open-source projects and technical communities"
+  ]
+}
