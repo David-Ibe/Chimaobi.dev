@@ -201,7 +201,7 @@ export const projects: Project[] = [
     ],
     techTags: ["Claude API", "FastAPI", "React", "Supabase", "LangChain"],
     repoUrl: "https://github.com/David-Ibe/Ideora",
-    liveUrl: "https://ideora-weld.vercel.app",
+    liveUrl: "https://ideora-rouge.vercel.app",
   },
   {
     name: "ask-obi",
