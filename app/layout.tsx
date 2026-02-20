@@ -12,15 +12,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://chimaobi.dev"),
   title: {
-    default: "Chimaobi David Ibe | Software Engineer • Full‑stack Developer",
+    default: "Chimaobi David Ibe | AI Integration Developer",
     template: "%s | Chimaobi David Ibe",
   },
   description:
-    "Software Engineer and Full‑stack Developer. Scalable APIs, Python (FastAPI/Flask), Node.js, Docker, Kubernetes, ML inference. Lagos, Nigeria.",
+    "AI Integration Developer specializing in LLM-powered apps, chatbots, and workflow automation. Building AI systems that work in the real world.",
   openGraph: {
-    title: "Chimaobi David Ibe | Software Engineer • Full‑stack Developer",
+    title: "Chimaobi David Ibe | AI Integration Developer",
     description:
-      "Software Engineer and Full‑stack Developer. Scalable APIs, Python (FastAPI/Flask), Node.js, Docker, Kubernetes. Lagos, Nigeria.",
+      "AI Integration Developer specializing in LLM-powered apps, chatbots, and workflow automation. Building AI systems that work in the real world.",
     url: "https://chimaobi.dev",
     siteName: "Chimaobi David Ibe",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Chimaobi David Ibe — Software Engineer • Full‑stack Developer",
+        alt: "Chimaobi David Ibe — AI Integration Developer",
       },
     ],
     locale: "en_US",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chimaobi David Ibe | Software Engineer • Full‑stack Developer",
+    title: "Chimaobi David Ibe | AI Integration Developer",
     description:
-      "Software Engineer and Full‑stack Developer. Scalable APIs, Python, Node.js, Docker, Kubernetes. Lagos, Nigeria.",
+      "AI Integration Developer specializing in LLM-powered apps, chatbots, and workflow automation. Building AI systems that work in the real world.",
   },
   robots: {
     index: true,
