@@ -1,6 +1,6 @@
 export const contact = {
   name: "Chimaobi David Ibe",
-  title: "Software Engineer • Full‑stack Developer",
+  title: "AI Integration Developer",
   location: "Lagos, Nigeria",
   email: "cxxx2500@gmail.com",
   phone: "07039883247",
@@ -13,37 +13,50 @@ export const contact = {
 } as const;
 
 export const heroSummary =
-  "Software Engineer • Full‑stack Developer with extensive experience architecting and delivering scalable, production-ready APIs and web applications. Proven expertise in Python (FastAPI/Flask) and Node.js ecosystems, with a strong focus on system design, cloud infrastructure, and ML model integration. Specialized in building robust backend services, seamless frontend experiences, and deploying containerized applications across modern cloud platforms.";
+  "AI Integration Developer specializing in LLM-powered applications, chatbots, document processing pipelines, and workflow automation. I build AI systems that work in the real world — production-ready, verified, and reliable. Background in Industrial Chemistry means every output is tested, every result is traceable, and every system is built with quality control at its core.";
 
 export const coreSkills = [
+  "OpenAI API",
+  "Claude (Anthropic API)",
+  "LangChain",
+  "Hugging Face",
+  "PyTorch",
   "Python",
-  "TypeScript",
   "FastAPI",
   "Flask",
   "Node.js/Express",
+  "TypeScript",
   "React",
   "Next.js",
-  "Vite",
   "Tailwind CSS",
-  "Hugging Face",
-  "PyTorch",
   "PostgreSQL (Supabase)",
   "SQLite",
   "Docker",
   "Kubernetes",
   "Vercel/Railway/Render/Fly.io",
-  "Recharts/Chart.js",
   "Paystack",
   "Resend",
 ] as const;
 
 export const technicalSkills = [
   {
+    category: "AI & LLM Integration",
+    items: [
+      "OpenAI API, Claude (Anthropic), Gemini integration",
+      "LangChain: chains, agents, memory, RAG pipelines",
+      "Hugging Face Transformers: NLP, emotion classification, inference",
+      "AI agent development: sequential and multi-step workflows",
+      "Prompt engineering and structured output design",
+      "Vector databases and retrieval-augmented generation (RAG)",
+    ],
+  },
+  {
     category: "Backend Development",
     items: [
       "Python: FastAPI, Flask, Pydantic, RESTful API design",
-      "Node.js: Express.js, JWT authentication, middleware development",
+      "Node.js: Express.js, NestJS, JWT authentication",
       "API Architecture: REST APIs, microservices, async/await patterns",
+      "Webhook integration, billing systems (Paystack)",
     ],
   },
   {
@@ -56,17 +69,13 @@ export const technicalSkills = [
     ],
   },
   {
-    category: "Machine Learning & Data",
+    category: "Databases & Auth",
     items: [
-      "Hugging Face Transformers",
-      "PyTorch",
-      "Model inference integration",
-      "Emotion classification, NLP",
+      "PostgreSQL (Supabase)",
+      "SQLite",
+      "Supabase Auth: multi-user, role-based access",
+      "Database design and optimization",
     ],
-  },
-  {
-    category: "Databases",
-    items: ["PostgreSQL (Supabase)", "SQLite", "Database design and optimization"],
   },
   {
     category: "DevOps & Cloud",
@@ -78,24 +87,25 @@ export const technicalSkills = [
     ],
   },
   {
-    category: "Tools & Technologies",
+    category: "Tools & Practices",
     items: [
       "Version Control: Git, GitHub",
       "Payment Integration: Paystack",
       "Email Services: Resend",
       "Data Visualization: Recharts, Chart.js",
-      "Testing & Debugging",
+      "Testing, debugging, observability",
     ],
   },
 ] as const;
 
 export const toolsAndPractices = [
-  "API design",
-  "Authentication & authorization (JWT)",
+  "LLM integration and prompt engineering",
+  "AI agent and workflow automation design",
+  "API design and RESTful architecture",
+  "Authentication & authorization (JWT, Supabase)",
   "CI/CD-friendly workflows",
   "Containerized local development",
   "Observability (logging, health endpoints)",
-  "Secure file handling",
   "PaaS deployment",
 ] as const;
 
@@ -109,69 +119,61 @@ export const certifications = [
 ] as const;
 
 export const availability =
-  "Software development, frontend, backend, fullstack, etc.";
+  "AI integration, LLM-powered applications, chatbot development, workflow automation, full-stack development.";
 
 export const additionalInfo = [
-  "Strong problem-solving skills with a focus on clean, maintainable code",
-  "Experience working in agile development environments",
-  "Passionate about building scalable systems and optimizing performance",
-  "Active contributor to open-source projects and technical communities",
+  "Industrial Chemistry background brings rigorous verification mindset to AI engineering — every output is tested, every result is traceable",
+  "Specialized in building AI systems that are production-ready, not just functional prototypes",
+  "Experience building full AI products from idea to deployed, billing-enabled SaaS",
+  "Remote-friendly with experience in async, cross-timezone collaboration",
 ] as const;
 
 export const experienceItems = [
   {
-    title: "Backend & Full-Stack API Development | Content Discovery Platform",
+    title: "AI Agent Development | Ideora Research & Content Platform",
     bullets: [
-      "Architected and implemented high-performance FastAPI REST APIs with comprehensive Pydantic models for data validation and serialization",
-      "Designed and developed advanced search endpoints with optimized query performance and filtering capabilities",
-      "Integrated multiple external content APIs with robust error handling and rate limiting",
-      "Built AI-powered chat endpoint with streaming capabilities for real-time user interactions",
-      "Created comprehensive containerization strategies and deployment documentation for PaaS and container hosting platforms",
-      "Ensured API scalability and reliability through proper async/await patterns and database optimization",
+      "Built a multi-step AI agent using Claude (Anthropic API) that transforms any topic into a publication-ready article through a sequential Plan → Draft → Polish workflow",
+      "Integrated optional web search via Serper API to ground AI outputs in real, verifiable sources",
+      "Architected full production stack: FastAPI backend, React/Vite frontend, Supabase multi-user auth, Paystack billing",
+      "Supports 9 content formats including newsletters, research reports, whitepapers, X threads, and LinkedIn carousels",
+      "Deployed on Render (backend) and Vercel (frontend) with full CI/CD pipeline",
     ],
   },
   {
-    title: "Real-Time Media & Audio Workflows | Voice/Social Platform",
+    title: "AI-Powered Discovery Engine | ask-obi Content Platform",
     bullets: [
-      "Engineered backend endpoints for media upload, processing, and streaming with support for multiple file formats",
-      "Implemented client-side audio handling with Web Audio API integration for real-time processing",
-      "Developed secure authentication flows using JWT tokens and role-based access control (RBAC)",
-      "Built secure file storage system with cloud integration and CDN optimization",
-      "Designed and implemented real-time features using WebSockets for live audio interactions",
-      "Ensured data security and compliance with best practices for handling user-generated content",
+      "Built a conversational AI discovery engine solving choice paralysis for streaming users across the African market",
+      "Integrated natural language AI assistant that understands queries and returns personalized recommendations in real time",
+      "Architected two-tier system: React/Vite SPA frontend + FastAPI backend with SQLite persistence",
+      "Integrated third-party content metadata APIs with robust error handling and rate limiting",
+      "Authored containerized deployment documentation for Railway/Render and Vercel",
     ],
   },
   {
-    title: "Corporate Website & Payments Integration | E-Commerce Platform",
+    title: "ML Inference & Sentiment Analytics | Emotion Analyzer",
     bullets: [
-      "Developed modern, responsive Next.js marketing website with server-side rendering (SSR) and static site generation (SSG)",
-      "Integrated Paystack payment gateway with webhook handling for secure transaction processing",
-      "Implemented email automation workflows using Resend for transactional and marketing emails",
-      "Built reusable component library with TypeScript for consistent UI/UX across the platform",
-      "Optimized performance with code splitting, lazy loading, and image optimization",
-      "Deployed and maintained production infrastructure on Vercel with CI/CD integration",
-    ],
-  },
-  {
-    title: "ML Inference & Analytics | AI-Powered Analytics Platform",
-    bullets: [
-      "Integrated Hugging Face emotion classification models into production backend services",
-      "Built scalable inference endpoints with model caching and batch processing capabilities",
+      "Built an AI-powered system detecting emotions and sentiment in customer reviews using Hugging Face transformer models",
+      "Goes beyond simple positive/negative classification — identifies granular emotional states to help businesses improve retention",
+      "Integrated multi-label emotion classification models into production backend services with model caching",
       "Developed real-time React analytics dashboard with interactive data visualizations using Recharts",
-      "Implemented data pipeline for processing and aggregating emotion classification results",
-      "Created API endpoints for historical data retrieval and trend analysis",
-      "Optimized model inference performance to handle high-volume requests efficiently",
+      "Built preprocessing pipeline: emoji handling, spell correction, and data aggregation",
     ],
   },
   {
-    title: "Enterprise Admin Dashboard & Backend | Enterprise SaaS Platform",
+    title: "AI Research Operations Platform | Require Technologies",
     bullets: [
-      "Built comprehensive frontend visualizations for complex rule management systems",
-      "Developed backend telemetry APIs for real-time monitoring and alerting",
-      "Implemented rule engine with configurable business logic and validation",
-      "Created real-time monitoring dashboards with live data updates",
-      "Designed and implemented API endpoints for rule CRUD operations with audit logging",
-      "Ensured system reliability through comprehensive error handling and monitoring",
+      "Co-founded and built an AI-powered research platform delivering audit-ready reports for law firms, investment teams, and consultancies",
+      "Designed AI verification workflows combining automation with human oversight to achieve 95%+ accuracy research outputs",
+      "Built full platform: Next.js marketing site, Paystack payment integration, Resend email automation",
+      "Architected multi-user infrastructure with Supabase auth, full citation trails, and enterprise-grade security",
+    ],
+  },
+  {
+    title: "Fintech Platform | Require-ng MVP",
+    bullets: [
+      "Built Nigerian fintech platform for global money transfers, crypto peer-to-peer trading, and financial management",
+      "Implemented bank-level security with Supabase auth and PostgreSQL storage",
+      "Deployed with Docker and Kubernetes manifests for scalable infrastructure",
     ],
   },
 ] as const;
@@ -188,33 +190,73 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: "Ideora",
+    shortDescription:
+      "AI Research & Content Generation Agent — Plan → Draft → Polish workflow powered by Claude API.",
+    details: [
+      "Multi-step AI agent that turns any topic into a polished, publication-ready article through a sequential workflow.",
+      "Integrated Claude (Anthropic API) and optional web search for source-grounded research outputs.",
+      "Supports 9 content formats: newsletters, research reports, whitepapers, X threads, LinkedIn carousels, and more.",
+      "Full production stack: FastAPI backend, React/Vite frontend, Supabase auth, Paystack billing.",
+    ],
+    techTags: ["Claude API", "FastAPI", "React", "Supabase", "LangChain"],
+    repoUrl: "https://github.com/David-Ibe/Ideora",
+    liveUrl: "https://ideora-weld.vercel.app",
+  },
+  {
     name: "ask-obi",
     shortDescription:
-      "Movie discovery platform with React frontend and FastAPI backend.",
+      "AI-powered content discovery engine with conversational assistant for the African streaming market.",
     details: [
-      "Two‑tier app: React/Vite SPA + FastAPI backend with SQLite persistence.",
-      "Integrations with third‑party movie metadata APIs and an AI conversational assistant.",
-      "Authored containerized deployment notes for Railway/Render and SPA hosting on Vercel.",
+      "Conversational AI assistant that understands natural language queries and returns personalized recommendations.",
+      "Two-tier architecture: React/Vite SPA + FastAPI backend with SQLite persistence.",
+      "Solves choice paralysis for Nollywood and African streaming content consumers.",
     ],
-    techTags: ["React", "FastAPI", "SQLite", "Tailwind"],
+    techTags: ["OpenAI API", "React", "FastAPI", "SQLite", "Tailwind"],
     repoUrl: "https://github.com/David-Ibe/ask-obi",
     liveUrl: "https://ask-obi.vercel.app",
   },
   {
+    name: "Emotion-Analyzer",
+    shortDescription:
+      "AI customer sentiment & emotion detection system using Hugging Face transformer models.",
+    details: [
+      "Detects granular emotions in customer reviews — beyond simple positive/negative classification.",
+      "Hugging Face Transformers integration with preprocessing pipeline and model caching.",
+      "Real-time React analytics dashboard with interactive visualizations.",
+    ],
+    techTags: ["Hugging Face", "PyTorch", "Flask", "React", "Recharts"],
+    repoUrl: "https://github.com/David-Ibe/Emotion-Analyzer",
+  },
+  {
+    name: "requiretechnologies",
+    shortDescription:
+      "AI-powered research operations platform for law firms, investment teams, and consultancies.",
+    details: [
+      "Delivers audit-ready research reports with full citations in 24 hours.",
+      "Combines AI automation with human verification for 95%+ accuracy.",
+      "Next.js platform with Paystack billing, Resend email automation, enterprise security.",
+    ],
+    techTags: ["Next.js", "TypeScript", "Tailwind", "Paystack", "Resend"],
+    repoUrl: null,
+    liveUrl: "https://requiretechnologies.com",
+  },
+  {
     name: "require-ng-MVP",
     shortDescription:
-      "Fintech MVP leveraging Supabase for auth and Postgres storage, with Docker/k8s deployment.",
+      "Nigerian fintech platform for global money transfers, crypto P2P trading, and financial management.",
     details: [
-      "React frontend, Node backend, Supabase auth, and k8s manifests.",
+      "Bank-level security with Supabase auth and PostgreSQL storage.",
+      "React frontend, Node backend, Docker and Kubernetes deployment manifests.",
     ],
-    techTags: ["React", "Node.js", "Supabase", "Kubernetes"],
+    techTags: ["React", "Node.js", "Supabase", "Kubernetes", "Docker"],
     repoUrl: "https://github.com/David-Ibe/require-ng-MVP",
     liveUrl: "https://require-ng.vercel.app",
   },
   {
     name: "social-media-video-downloader",
     shortDescription:
-      "Full-stack web app that fetches video metadata and lets users download videos from YouTube, TikTok, Instagram, and other platforms supported by yt-dlp.",
+      "Full-stack web app for downloading videos from YouTube, TikTok, Instagram, and more.",
     details: [
       "Resolution selection, URL bookmarks, and queue-based download flow.",
       "React/Vite frontend, NestJS backend, yt-dlp for video extraction.",
@@ -224,65 +266,23 @@ export const projects: Project[] = [
     liveUrl: "https://social-media-video-downloader-1-2dby.onrender.com",
   },
   {
-    name: "requiretechnologies",
-    shortDescription:
-      "Corporate website built with Next.js and TypeScript featuring payment and contact integrations.",
-    details: [
-      "Next.js marketing site with Tailwind CSS, Paystack payment integration and WhatsApp contact flows.",
-      "Resend integration for contact email automation.",
-    ],
-    techTags: ["Next.js", "TypeScript", "Tailwind", "Paystack"],
-    repoUrl: "https://requiretechnologies.com",
-  },
-  {
     name: "vocalize-app",
     shortDescription:
-      "Voice & social interaction application with media upload, streaming and audio features.",
+      "Voice & social interaction platform with media upload, streaming, and real-time audio features.",
     details: [
-      "Media upload/streaming endpoints, client audio capture/playback components.",
-      "Authentication flows and secure file handling.",
+      "Media upload/streaming endpoints, client audio capture/playback with Web Audio API.",
+      "JWT authentication, RBAC, secure file storage with CDN optimization.",
+      "Real-time features using WebSockets for live audio interactions.",
     ],
-    techTags: ["React", "Node.js", "Express"],
+    techTags: ["React", "Node.js", "Express", "WebSockets"],
     repoUrl: "https://github.com/David-Ibe/vocalize-app",
-  },
-  {
-    name: "Make-Moni-App",
-    shortDescription:
-      "Fintech / payments MVP for transfers and account management.",
-    details: [
-      "Secure transfer/payment flows and backend endpoints.",
-      "Docker and Kubernetes manifests for deployment.",
-    ],
-    techTags: ["React", "Node.js", "Supabase", "Docker"],
-    repoUrl: "https://github.com/David-Ibe/Make-Moni-App",
-  },
-  {
-    name: "Emotion-Analyzer",
-    shortDescription:
-      "AI emotion detection & analytics with Hugging Face models and visualization dashboard.",
-    details: [
-      "Hugging Face Transformers integration for multi‑label emotion classification.",
-      "Preprocessing (emoji handling, spell correction) and analytics dashboard.",
-    ],
-    techTags: ["Flask", "React", "Transformers", "PyTorch"],
-    repoUrl: "https://github.com/David-Ibe/Emotion-Analyzer",
-  },
-  {
-    name: "excel-network",
-    shortDescription:
-      "Backend & integrations for enterprise network telemetry and APIs.",
-    details: [
-      "APIs for telemetry and device integration supporting the dashboard frontend.",
-    ],
-    techTags: ["Node.js", "Express", "Telemetry"],
-    repoUrl: "https://github.com/David-Ibe/excel-network",
   },
   {
     name: "BustopFX-website",
     shortDescription:
       "Marketing and exchange website with contact and onboarding flows.",
     details: [
-      "Static/dynamic marketing site with payment/contact integrations.",
+      "Static/dynamic marketing site with payment and contact integrations.",
     ],
     techTags: ["Next.js", "Tailwind"],
     repoUrl: "https://github.com/David-Ibe/BustopFX-website",
@@ -290,9 +290,9 @@ export const projects: Project[] = [
 ];
 
 export const featuredProjectSlugs = [
+  "Ideora",
   "ask-obi",
-  "require-ng-MVP",
-  "social-media-video-downloader",
+  "Emotion-Analyzer",
   "requiretechnologies",
 ];
 
